@@ -1,3 +1,20 @@
+
+
+
+
+DESCRIBE pni_dm_warning_storico;
+DESCRIBE pni_dm_warning_variante;
+DESCRIBE pni_dm_rel_warning_progetto_variante;
+DESCRIBE pplus_dm_vw_pj236_n001_rpt_warnings_variante_ag_snapshot;
+SHOW TABLES IN l3_qlik LIKE '*variante*';
+SHOW TABLES IN l3_qlik LIKE '*varianti*';
+SHOW TABLES IN l3_qlik LIKE '*progetto_variante*';
+SHOW TABLES IN l3_qlik LIKE '*spend*';
+SHOW TABLES IN l3_qlik LIKE '*importo*';
+SHOW TABLES IN l3_qlick;
+SHOW VIEWS  IN l3_qlick;
+WHERE UPPER(impresa) LIKE '%SIELTE%';
+
 /*
 Task varianti without spending there Video 
 Topic: varianti (changes/addenda/modifications)
